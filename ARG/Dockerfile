@@ -1,5 +1,5 @@
 FROM almalinux:9
 ARG course="Devops" \
-    Duration="120hrs" 
-RUN "cource: $course, Duration: $Duration"    
+    duration="120hrs" 
+RUN "course: $course, Duration: $duration"    
 CMD ["sleep", "100"]    
